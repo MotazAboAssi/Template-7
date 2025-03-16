@@ -1,24 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, MemoryRouter } from "react-router-dom";
+import Header from "./Components/NavBar/Header";
+import Home from "./Components/SectionMain/Home";
+import Projects from "./Components/ProjectSection/ControlMain/Projects";
+import Skills from "./Components/SecSkills/Skills";
+import MyWork from "./Components/ProjectSection/Work/MyWork";
+import GetInTouch from "./Components/ProjectSection/Communocation/GetInTouch";
+import PersonalInfo from "./Components/ProjectSection/MyInformation/PersonalInfo";
+import Footer from "./Components/Footer/Footer";
+import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  ////////////////////////////////
+ 
+  /////////////////////////////////
+  document.title = "Portfolio Motaz";
+  ////////////////////////////////
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MemoryRouter>
+      <Header />
+      <Home />
+      <Skills />
+      <Projects />
+      <Routes>
+        <Route
+          index
+          element={
+            <>
+              <MyWork />
+              <GetInTouch />
+            </>
+          }
+        />
+        <Route
+          path="/GetInTouch"
+          element={
+            <>
+              <GetInTouch />
+            </>
+          }
+        />
+        <Route
+          path="/PersonalInfo"
+          element={
+            <>
+              <PersonalInfo />
+              <GetInTouch />
+            </>
+          }
+        />
+      </Routes>
+      <Footer />
+    </MemoryRouter>
   );
 }
 
