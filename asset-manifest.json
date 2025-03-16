@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Template-7/static/css/main.0024d159.css",
+    "main.js": "/Template-7/static/js/main.7a3dedb3.js",
+    "static/js/453.4a7eb50c.chunk.js": "/Template-7/static/js/453.4a7eb50c.chunk.js",
+    "static/media/email.png": "/Template-7/static/media/email.cbca932755cd02727f29.png",
+    "static/media/LOGO.png": "/Template-7/static/media/LOGO.31943ea1d8210b7808d2.png",
+    "static/media/AlSham.jpg": "/Template-7/static/media/AlSham.9ea9bda6e809cbdde34c.jpg",
+    "static/media/astronaut.png": "/Template-7/static/media/astronaut.68405f7ecb545afc81b0.png",
+    "static/media/Menu.jpg": "/Template-7/static/media/Menu.829fdc77a8ac806b2c7f.jpg",
+    "static/media/ShoppingLabtob.jpg": "/Template-7/static/media/ShoppingLabtob.94bcace31455e55bac7b.jpg",
+    "static/media/ShoppingHours.jpg": "/Template-7/static/media/ShoppingHours.2a1de9607eefd7230bd5.jpg",
+    "static/media/background.jpg": "/Template-7/static/media/background.bc423c9057679e212deb.jpg",
+    "static/media/ShoppingOnline.jpg": "/Template-7/static/media/ShoppingOnline.183591c0e3d7e29fd073.jpg",
+    "static/media/ProgrammersAgency.jpg": "/Template-7/static/media/ProgrammersAgency.3a9101350dff284eb260.jpg",
+    "static/media/Success.png": "/Template-7/static/media/Success.6776e7dbfd58b183ee46.png",
+    "static/media/Failure.png": "/Template-7/static/media/Failure.f5c98ed1ab482e0f97fb.png",
+    "index.html": "/Template-7/index.html",
+    "main.0024d159.css.map": "/Template-7/static/css/main.0024d159.css.map",
+    "main.7a3dedb3.js.map": "/Template-7/static/js/main.7a3dedb3.js.map",
+    "453.4a7eb50c.chunk.js.map": "/Template-7/static/js/453.4a7eb50c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0024d159.css",
+    "static/js/main.7a3dedb3.js"
+  ]
+}
