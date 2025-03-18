@@ -16,6 +16,13 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+
+     if(window.innerWidth <= 991 && window.scrollY <= 50)
+      {
+        let x  = document.getElementById('navbar')
+        x.style.background = "rgb(3, 2, 21)"
+      }
+    
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
